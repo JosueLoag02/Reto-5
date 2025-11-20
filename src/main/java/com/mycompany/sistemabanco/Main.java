@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Deuda después de intereses: "+tc.getMontoActual());
         
         //Prueba Tarjeta de débito
-        TarjetaDebito td=new TarjetaDebito(10000); 
+        TarjetaDebito td=new TarjetaDebito(50000); 
         System.out.println("Fondos después de apertura: "+td.getMontoActual());
         td.depositar(1000);
         System.out.println("Fondos después de depósito: "+td.getMontoActual());

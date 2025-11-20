@@ -3,8 +3,8 @@ package com.mycompany.sistemabanco;
 
 public class TarjetaDebito extends CuentaBase {
     
-    public TarjetaDebito(double apertura){
-        super(apertura);
+    public TarjetaDebito(double aperturaD){
+        super(aperturaD);
     }
     
     public void retirar(double cantidad){
